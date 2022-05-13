@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Some Website</title>
+  </head>
+  <body>
+    {{> header}}<!--double curly and > syntext adds persistant headders and footers in web page-->
+
+    <p>{{screamIt welcomeMessage}}</p><!--double curly brace for dynamic page where the data in it changes as new data pass from server.js-->
+
+    {{> footer}}
+  </body>
+</html>
+<!--file extention must be same as view engine-->
